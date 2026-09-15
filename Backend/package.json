@@ -1,0 +1,22 @@
+{
+  "name": "prompt-optimizer",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@ai-sdk/groq": "^3.0.45",
+    "@ai-sdk/openai": "^3.0.77",
+    "ai": "^6.0.214",
+    "cors": "^2.8.6",
+    "curl": "^0.1.4",
+    "express": "^5.2.1"
+  }
+}
